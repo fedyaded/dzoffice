@@ -5,7 +5,7 @@ def main():
     offices={}
     exit = True
     while exit:
-        choose=int(input("1.Заниматься офисами\n3.ВЫХОД\n-> "))
+        choose=int(input("1.Заниматься офисами\n2.ВЫХОД\n-> "))
         if choose == 1:
             while exit:
                 choose = int(input("1.ДОБАВИТЬ\n2.РЕДАКТИРОВАТЬ\n3.УДАЛИТЬ\n4.ВЫВОД ВСЕХ\n5.ВЫХОД\n-> "))
