@@ -30,7 +30,7 @@ def main():
                 elif choose == 3:
                     f = open("ofic.txt","r")
                     name = input("Ввести название ")
-                                        if name in offices.keys():
+                    if name in offices.keys():
                         offices.pop(name)
 
                         for element in techs:
